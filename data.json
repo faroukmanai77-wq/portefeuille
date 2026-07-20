@@ -1,105 +1,512 @@
 {
   "positions": [
-    {"id":"p1", "symbol":"IBIT", "account":"Celiapp (Farouk)", "shares":745.10, "bookPrice":30.07},
-    {"id":"p2", "symbol":"IBIT", "account":"Celi (Farouk)", "shares":177.62, "bookPrice":33.06},
-    {"id":"p3", "symbol":"QQC", "account":"Celi (Farouk)", "shares":2832.70, "bookPrice":41.46},
-    {"id":"p4", "symbol":"QQC", "account":"Non enregistré (Farouk)", "shares":404.13, "bookPrice":41.31},
-    {"id":"p5", "symbol":"QQC", "account":"REER Farouk individuel", "shares":5.10, "bookPrice":48.95},
-    {"id":"p6", "symbol":"VFV", "account":"Celiapp (Aicha) BNCD", "shares":110.00, "bookPrice":146.29},
-    {"id":"p7", "symbol":"VFV", "account":"Celiapp (Aicha) Wealthsimple", "shares":37.41, "bookPrice":179.00},
-    {"id":"p8", "symbol":"VFV", "account":"Celi (Aicha)", "shares":504.26, "bookPrice":136.54},
-    {"id":"p9", "symbol":"VFV", "account":"REER (Aicha)", "shares":386.53, "bookPrice":123.90},
-    {"id":"p10", "symbol":"VFV", "account":"LIRA (Aicha)", "shares":144.13, "bookPrice":153.65},
-    {"id":"p11", "symbol":"VFV", "account":"Non enregistré (Farouk)", "shares":552.92, "bookPrice":142.37},
-    {"id":"p12", "symbol":"VFV", "account":"REEE", "shares":82.00, "bookPrice":117.17},
-    {"id":"p13", "symbol":"VFV", "account":"REER (Farouk)", "shares":113.97, "bookPrice":107.18},
-    {"id":"p14", "symbol":"HYLD", "account":"Non enregistré", "shares":2007.00, "bookPrice":15.84},
-    {"id":"p15", "symbol":"QQCL", "account":"Non enregistré", "shares":101.60, "bookPrice":27.68}
+    {
+      "id": "p1",
+      "symbol": "IBIT",
+      "account": "Celiapp (Farouk)",
+      "shares": 745.1,
+      "bookPrice": 30.07
+    },
+    {
+      "id": "p2",
+      "symbol": "IBIT",
+      "account": "Celi (Farouk)",
+      "shares": 177.62,
+      "bookPrice": 33.06
+    },
+    {
+      "id": "p3",
+      "symbol": "QQC",
+      "account": "Celi (Farouk)",
+      "shares": 2832.7,
+      "bookPrice": 41.46
+    },
+    {
+      "id": "p4",
+      "symbol": "QQC",
+      "account": "Non enregistré (Farouk)",
+      "shares": 404.13,
+      "bookPrice": 41.31
+    },
+    {
+      "id": "p5",
+      "symbol": "QQC",
+      "account": "REER Farouk individuel",
+      "shares": 5.1,
+      "bookPrice": 48.95
+    },
+    {
+      "id": "p6",
+      "symbol": "VFV",
+      "account": "Celiapp (Aicha) BNCD",
+      "shares": 110,
+      "bookPrice": 146.29
+    },
+    {
+      "id": "p7",
+      "symbol": "VFV",
+      "account": "Celiapp (Aicha) Wealthsimple",
+      "shares": 37.41,
+      "bookPrice": 179
+    },
+    {
+      "id": "p8",
+      "symbol": "VFV",
+      "account": "Celi (Aicha)",
+      "shares": 504.26,
+      "bookPrice": 136.54
+    },
+    {
+      "id": "p9",
+      "symbol": "VFV",
+      "account": "REER (Aicha)",
+      "shares": 386.53,
+      "bookPrice": 123.9
+    },
+    {
+      "id": "p10",
+      "symbol": "VFV",
+      "account": "LIRA (Aicha)",
+      "shares": 144.13,
+      "bookPrice": 153.65
+    },
+    {
+      "id": "p11",
+      "symbol": "VFV",
+      "account": "Non enregistré (Farouk)",
+      "shares": 552.92,
+      "bookPrice": 142.37
+    },
+    {
+      "id": "p12",
+      "symbol": "VFV",
+      "account": "REEE",
+      "shares": 82,
+      "bookPrice": 117.17
+    },
+    {
+      "id": "p13",
+      "symbol": "VFV",
+      "account": "REER (Farouk)",
+      "shares": 113.97,
+      "bookPrice": 107.18
+    },
+    {
+      "id": "p14",
+      "symbol": "HYLD",
+      "account": "Non enregistré",
+      "shares": 2007,
+      "bookPrice": 15.84
+    },
+    {
+      "id": "p15",
+      "symbol": "QQCL",
+      "account": "Non enregistré",
+      "shares": 101.6,
+      "bookPrice": 27.68
+    }
   ],
-  "fundOrder": ["VFV", "QQC", "IBIT", "HYLD", "QQCL"],
+  "fundOrder": [
+    "VFV",
+    "QQC",
+    "IBIT",
+    "HYLD",
+    "QQCL"
+  ],
   "funds": {
-    "VFV": {"name":"Vanguard S&P 500 Index ETF", "priceNow":187.63, "annualDividend":1.54, "priceATH":190.30, "source":"VFV.TO"},
-    "QQC": {"name":"Invesco Nasdaq 100 ETF", "priceNow":48.43, "annualDividend":0.16, "priceATH":51.57, "source":"QQC.TO"},
-    "IBIT": {"name":"iShares Bitcoin ETF", "priceNow":26.62, "annualDividend":0.00, "priceATH":52.13, "source":"IBIT"},
-    "HYLD": {"name":"Hamilton Enhanced US Covered Call", "priceNow":15.74, "annualDividend":1.94, "priceATH":16.31, "source":"HYLD.TO"},
-    "QQCL": {"name":"Global X Enhanced Nasdaq-100 Covered Call", "priceNow":26.84, "annualDividend":3.72, "priceATH":29.14, "source":"QQCL.TO"}
+    "VFV": {
+      "name": "Vanguard S&P 500 Index ETF",
+      "priceNow": 187.63,
+      "annualDividend": 1.54,
+      "priceATH": 190.3,
+      "source": "VFV.TO"
+    },
+    "QQC": {
+      "name": "Invesco Nasdaq 100 ETF",
+      "priceNow": 48.43,
+      "annualDividend": 0.16,
+      "priceATH": 51.57,
+      "source": "QQC.TO"
+    },
+    "IBIT": {
+      "name": "iShares Bitcoin ETF",
+      "priceNow": 26.62,
+      "annualDividend": 0,
+      "priceATH": 52.13,
+      "source": "IBIT"
+    },
+    "HYLD": {
+      "name": "Hamilton Enhanced US Covered Call",
+      "priceNow": 15.74,
+      "annualDividend": 1.94,
+      "priceATH": 16.31,
+      "source": "HYLD.TO"
+    },
+    "QQCL": {
+      "name": "Global X Enhanced Nasdaq-100 Covered Call",
+      "priceNow": 26.84,
+      "annualDividend": 3.72,
+      "priceATH": 29.14,
+      "source": "QQCL.TO"
+    }
   },
   "dividends": [
-    {"id":"d1", "symbol":"HYLD", "date":"2026-07-08", "amount":324.00}
+    {
+      "id": "d1",
+      "symbol": "HYLD",
+      "date": "2026-07-08",
+      "amount": 324
+    }
   ],
   "budget": {
     "revenus": [
-      {"id":"r1", "label":"Aicha", "amount":10000.00, "type":"income"},
-      {"id":"r2", "label":"Farouk", "amount":1600.00, "type":"income"},
-      {"id":"r3", "label":"Covered Call", "amount":355.961, "type":"excluded"},
-      {"id":"r4", "label":"Gouvernement", "amount":1950.195, "type":"income"},
-      {"id":"r5", "label":"Impôt", "amount":2000.00, "type":"deduction"},
-      {"id":"r6", "label":"TPS/TVQ", "amount":1300.00, "type":"deduction"}
+      {
+        "id": "r1",
+        "label": "Aicha",
+        "amount": 10000,
+        "type": "income"
+      },
+      {
+        "id": "r2",
+        "label": "Farouk",
+        "amount": 1600,
+        "type": "income"
+      },
+      {
+        "id": "r3",
+        "label": "Covered Call",
+        "amount": 355.961,
+        "type": "excluded"
+      },
+      {
+        "id": "r4",
+        "label": "Gouvernement",
+        "amount": 1950.195,
+        "type": "income"
+      },
+      {
+        "id": "r5",
+        "label": "Impôt",
+        "amount": 2000,
+        "type": "deduction"
+      },
+      {
+        "id": "r6",
+        "label": "TPS/TVQ",
+        "amount": 1300,
+        "type": "deduction"
+      }
     ],
     "depenses": [
-      {"id":"e1", "label":"Logement", "amount":2130.00, "subs":[], "excluded":false},
-      {"id":"e2", "label":"Voiture", "amount":null, "excluded":false, "subs":[
-        {"id":"e2a", "label":"Pneus, changement d’huile", "amount":120.00},
-        {"id":"e2b", "label":"Assurance Auto", "amount":105.00},
-        {"id":"e2c", "label":"Prêt voiture", "amount":230.00},
-        {"id":"e2d", "label":"Essence", "amount":200.00}
-      ]},
-      {"id":"e3", "label":"Épicerie", "amount":1200.00, "subs":[], "excluded":false},
-      {"id":"e4", "label":"Fizz (cellulaire)", "amount":76.00, "subs":[], "excluded":false},
-      {"id":"e5", "label":"Virgin internet", "amount":50.00, "subs":[], "excluded":false},
-      {"id":"e6", "label":"iPad", "amount":63.00, "subs":[], "excluded":false},
-      {"id":"e7", "label":"Applications", "amount":null, "excluded":false, "subs":[
-        {"id":"e7a", "label":"Apple", "amount":10.00},
-        {"id":"e7b", "label":"Claude", "amount":30.00},
-        {"id":"e7c", "label":"Amazon", "amount":11.50},
-        {"id":"e7d", "label":"Spotify", "amount":30.00},
-        {"id":"e7e", "label":"Netflix", "amount":11.50}
-      ]},
-      {"id":"e8", "label":"Garderie", "amount":430.00, "subs":[], "excluded":false},
-      {"id":"e9", "label":"Hydro", "amount":120.00, "subs":[], "excluded":false},
-      {"id":"e10", "label":"Intérêts Wealthsimple", "amount":375.00, "subs":[], "excluded":true}
+      {
+        "id": "e1",
+        "label": "Logement",
+        "amount": 2130,
+        "subs": [],
+        "excluded": false
+      },
+      {
+        "id": "e2",
+        "label": "Voiture",
+        "amount": null,
+        "excluded": false,
+        "subs": [
+          {
+            "id": "e2a",
+            "label": "Pneus, changement d’huile",
+            "amount": 120
+          },
+          {
+            "id": "e2b",
+            "label": "Assurance Auto",
+            "amount": 105
+          },
+          {
+            "id": "e2c",
+            "label": "Prêt voiture",
+            "amount": 230
+          },
+          {
+            "id": "e2d",
+            "label": "Essence",
+            "amount": 200
+          }
+        ]
+      },
+      {
+        "id": "e3",
+        "label": "Épicerie",
+        "amount": 1200,
+        "subs": [],
+        "excluded": false
+      },
+      {
+        "id": "e4",
+        "label": "Fizz (cellulaire)",
+        "amount": 76,
+        "subs": [],
+        "excluded": false
+      },
+      {
+        "id": "e5",
+        "label": "Virgin internet",
+        "amount": 50,
+        "subs": [],
+        "excluded": false
+      },
+      {
+        "id": "e6",
+        "label": "iPad",
+        "amount": 63,
+        "subs": [],
+        "excluded": false
+      },
+      {
+        "id": "e7",
+        "label": "Applications",
+        "amount": null,
+        "excluded": false,
+        "subs": [
+          {
+            "id": "e7a",
+            "label": "Apple",
+            "amount": 10
+          },
+          {
+            "id": "e7b",
+            "label": "Claude",
+            "amount": 30
+          },
+          {
+            "id": "e7c",
+            "label": "Amazon",
+            "amount": 11.5
+          },
+          {
+            "id": "e7d",
+            "label": "Spotify",
+            "amount": 30
+          },
+          {
+            "id": "e7e",
+            "label": "Netflix",
+            "amount": 11.5
+          }
+        ]
+      },
+      {
+        "id": "e8",
+        "label": "Garderie",
+        "amount": 430,
+        "subs": [],
+        "excluded": false
+      },
+      {
+        "id": "e9",
+        "label": "Hydro",
+        "amount": 120,
+        "subs": [],
+        "excluded": false
+      },
+      {
+        "id": "e10",
+        "label": "Intérêts Wealthsimple",
+        "amount": 375,
+        "subs": [],
+        "excluded": true
+      }
     ],
     "epargnes": [
-      {"id":"s1", "label":"AACT Aicha", "amount":758.58},
-      {"id":"s2", "label":"ACE Aicha", "amount":14003.11},
-      {"id":"s3", "label":"Allocation famille QC Aicha", "amount":6263.00},
-      {"id":"s4", "label":"ACEBE Farouk", "amount":1187.11},
-      {"id":"s5", "label":"Crédit d’impôt solidarité Farouk", "amount":1190.54}
+      {
+        "id": "s1",
+        "label": "AACT Aicha",
+        "amount": 758.58
+      },
+      {
+        "id": "s2",
+        "label": "ACE Aicha",
+        "amount": 14003.11
+      },
+      {
+        "id": "s3",
+        "label": "Allocation famille QC Aicha",
+        "amount": 6263
+      },
+      {
+        "id": "s4",
+        "label": "ACEBE Farouk",
+        "amount": 1187.11
+      },
+      {
+        "id": "s5",
+        "label": "Crédit d’impôt solidarité Farouk",
+        "amount": 1190.54
+      }
     ],
     "cotisations": [
-      {"id":"c1", "label":"Droit REER Aicha 2026", "droit":9306.00, "individuel":null, "conjoint":null},
-      {"id":"c2", "label":"Droit REER Farouk 2026", "droit":8485.00, "individuel":200.00, "conjoint":null},
-      {"id":"c3", "label":"Celiapp Aicha", "droit":8000.00, "individuel":5500.00, "conjoint":null},
-      {"id":"c4", "label":"Celiapp Farouk", "droit":8000.00, "individuel":8000.00, "conjoint":null}
+      {
+        "id": "c1",
+        "label": "Droit REER Aicha 2026",
+        "droit": 9306,
+        "individuel": null,
+        "conjoint": null
+      },
+      {
+        "id": "c2",
+        "label": "Droit REER Farouk 2026",
+        "droit": 8485,
+        "individuel": 200,
+        "conjoint": null
+      },
+      {
+        "id": "c3",
+        "label": "Celiapp Aicha",
+        "droit": 8000,
+        "individuel": 5500,
+        "conjoint": null
+      },
+      {
+        "id": "c4",
+        "label": "Celiapp Farouk",
+        "droit": 8000,
+        "individuel": 8000,
+        "conjoint": null
+      }
     ]
   },
   "bilan": {
     "dettes": [
-      {"id":"b1", "label":"Dettes (J/C)", "amount":8000.00, "included":false},
-      {"id":"b2", "label":"Argent Daddy", "amount":26220.00, "included":true},
-      {"id":"b3", "label":"Argent Daddy", "amount":120000.00, "included":true}
+      {
+        "id": "b1",
+        "label": "Dettes (J/C)",
+        "amount": 8000,
+        "included": false
+      },
+      {
+        "id": "b2",
+        "label": "Argent Daddy",
+        "amount": 26220,
+        "included": true
+      },
+      {
+        "id": "b3",
+        "label": "Argent Daddy",
+        "amount": 120000,
+        "included": true
+      }
     ],
-    "autresActifs": 8000.00
+    "autresActifs": 8000
   },
   "margin": [
-    {"id":"m1", "date":"2025-08-01", "cad":19.55, "usd":null},
-    {"id":"m2", "date":"2025-09-02", "cad":146.41, "usd":null},
-    {"id":"m3", "date":"2025-10-01", "cad":234.36, "usd":null},
-    {"id":"m4", "date":"2025-11-03", "cad":335.10, "usd":1.13},
-    {"id":"m5", "date":"2025-12-01", "cad":365.45, "usd":15.72},
-    {"id":"m6", "date":"2026-01-01", "cad":373.48, "usd":16.21},
-    {"id":"m7", "date":"2026-02-01", "cad":377.11, "usd":1.55},
-    {"id":"m8", "date":"2026-03-01", "cad":333.23, "usd":11.08},
-    {"id":"m9", "date":"2026-04-01", "cad":361.20, "usd":20.17},
-    {"id":"m10", "date":"2026-05-01", "cad":350.63, "usd":17.82},
-    {"id":"m11", "date":"2026-06-01", "cad":355.69, "usd":27.82},
-    {"id":"m12", "date":"2026-07-01", "cad":355.69, "usd":27.82}
+    {
+      "id": "m1",
+      "date": "2025-08-01",
+      "cad": 19.55,
+      "usd": null
+    },
+    {
+      "id": "m2",
+      "date": "2025-09-02",
+      "cad": 146.41,
+      "usd": null
+    },
+    {
+      "id": "m3",
+      "date": "2025-10-01",
+      "cad": 234.36,
+      "usd": null
+    },
+    {
+      "id": "m4",
+      "date": "2025-11-03",
+      "cad": 335.1,
+      "usd": 1.13
+    },
+    {
+      "id": "m5",
+      "date": "2025-12-01",
+      "cad": 365.45,
+      "usd": 15.72
+    },
+    {
+      "id": "m6",
+      "date": "2026-01-01",
+      "cad": 373.48,
+      "usd": 16.21
+    },
+    {
+      "id": "m7",
+      "date": "2026-02-01",
+      "cad": 377.11,
+      "usd": 1.55
+    },
+    {
+      "id": "m8",
+      "date": "2026-03-01",
+      "cad": 333.23,
+      "usd": 11.08
+    },
+    {
+      "id": "m9",
+      "date": "2026-04-01",
+      "cad": 361.2,
+      "usd": 20.17
+    },
+    {
+      "id": "m10",
+      "date": "2026-05-01",
+      "cad": 350.63,
+      "usd": 17.82
+    },
+    {
+      "id": "m11",
+      "date": "2026-06-01",
+      "cad": 355.69,
+      "usd": 27.82
+    },
+    {
+      "id": "m12",
+      "date": "2026-07-01",
+      "cad": 355.69,
+      "usd": 27.82
+    }
   ],
   "projection2030": [
-    {"id":"pr1", "symbol":"VFV", "targetShares":2100.00, "targetPrice":255.00},
-    {"id":"pr2", "symbol":"QQC", "targetShares":3500.00, "targetPrice":80.00},
-    {"id":"pr3", "symbol":"IBIT", "targetShares":1000.00, "targetPrice":70.00},
-    {"id":"pr4", "symbol":"HYLD", "targetShares":2007.00, "targetPrice":18.00},
-    {"id":"pr5", "symbol":"QQCL", "targetShares":101.60, "targetPrice":31.00}
+    {
+      "id": "pr1",
+      "symbol": "VFV",
+      "targetShares": 2100,
+      "targetPrice": 255
+    },
+    {
+      "id": "pr2",
+      "symbol": "QQC",
+      "targetShares": 3500,
+      "targetPrice": 80
+    },
+    {
+      "id": "pr3",
+      "symbol": "IBIT",
+      "targetShares": 1000,
+      "targetPrice": 70
+    },
+    {
+      "id": "pr4",
+      "symbol": "HYLD",
+      "targetShares": 2007,
+      "targetPrice": 18
+    },
+    {
+      "id": "pr5",
+      "symbol": "QQCL",
+      "targetShares": 101.6,
+      "targetPrice": 31
+    },
+    {
+      "id": "mrtkjqruu6knd",
+      "symbol": "VFV",
+      "targetShares": 0,
+      "targetPrice": 0
+    }
   ]
 }
