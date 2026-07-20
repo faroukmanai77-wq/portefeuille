@@ -501,12 +501,6 @@
       "symbol": "QQCL",
       "targetShares": 101.6,
       "targetPrice": 31
-    },
-    {
-      "id": "mrtkjqruu6knd",
-      "symbol": "VFV",
-      "targetShares": 0,
-      "targetPrice": 0
     }
   ]
 }
